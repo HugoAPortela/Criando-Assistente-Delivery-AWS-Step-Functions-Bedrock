@@ -1,0 +1,76 @@
+{
+  "ExecutedVersion": "$LATEST",
+  "Payload": {
+    "statusCode": 200,
+    "parsed_completion": {
+      "summary": "The content invites employees to a day of winter fun and team building activities at Holmenkollbakken in Oslo on May 30th (Thursday). The day starts with skiing at 10:00 AM, followed by exciting team activities like board games and an 'escape room', and concludes with a delicious dinner and drinks around 11:00 PM. Employees are requested to confirm attendance and inform about any food allergies by May 26th. The CEO is looking forward to creating memories together.",
+      "function_calls": [
+        {
+          "tool_name": "create-calendar-reminder",
+          "parameters": {
+            "body": "The content invites employees to a day of winter fun and team building activities at Holmenkollbakken in Oslo on May 30th (Thursday). The day starts with skiing at 10:00 AM, followed by exciting team activities like board games and an 'escape room', and concludes with a delicious dinner and drinks around 11:00 PM. Employees are requested to confirm attendance and inform about any food allergies by May 26th. The CEO is looking forward to creating memories together.",
+            "raw_body": "Kjære ansatte,\n\nVi inviterer deg til en dag med vintermoro og teambygging ved Holmenkollbakken i Oslo. Den 30. mai (torsdag) starter vi dagen med skiglede kl. 10:00. Etterfulgt av en dag med spennende teamaktiviteter som bordspill og 'escape room', avslutter vi arrangementet med en deilig middag og drikke. Arrangementet forventes å vare til rundt kl. 23:00. Vennligst bekreft deltakelse og informer om eventuelle matallergier innen 26. mai.\n\nSer frem til å skape minner sammen!\n\nMed vennlig hilsen,\n\nJeff\nCEO",
+            "subject": "Winter fun and team building day",
+            "start_datetime": "2024-05-30 10:00:00",
+            "end_datetime": "2024-05-30 23:00:00",
+            "location": "Holmenkollbakken, Oslo"
+          }
+        },
+        {
+          "tool_name": "create-calendar-reminder",
+          "parameters": {
+            "body": "The content invites employees to a day of winter fun and team building activities at Holmenkollbakken in Oslo on May 30th (Thursday). The day starts with skiing at 10:00 AM, followed by exciting team activities like board games and an 'escape room', and concludes with a delicious dinner and drinks around 11:00 PM. Employees are requested to confirm attendance and inform about any food allergies by May 26th. The CEO is looking forward to creating memories together.",
+            "raw_body": "Kjære ansatte,\n\nVi inviterer deg til en dag med vintermoro og teambygging ved Holmenkollbakken i Oslo. Den 30. mai (torsdag) starter vi dagen med skiglede kl. 10:00. Etterfulgt av en dag med spennende teamaktiviteter som bordspill og 'escape room', avslutter vi arrangementet med en deilig middag og drikke. Arrangementet forventes å vare til rundt kl. 23:00. Vennligst bekreft deltakelse og informer om eventuelle matallergier innen 26. mai.\n\nSer frem til å skape minner sammen!\n\nMed vennlig hilsen,\n\nJeff\nCEO",
+            "subject": "RSVP for winter fun and team building day",
+            "start_datetime": "2024-05-26 12:00:00",
+            "end_datetime": "2024-05-26 12:30:00",
+            "location": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  "SdkHttpMetadata": {
+    "AllHttpHeaders": {
+      "X-Amz-Executed-Version": [
+        "$LATEST"
+      ],
+      "x-amzn-Remapped-Content-Length": [
+        "0"
+      ],
+      "Connection": [
+        "keep-alive"
+      ],
+      "x-amzn-RequestId": [
+        "1ee53d23-0790-4a81-a30d-6beb8f6caf0c"
+      ],
+      "Content-Length": [
+        "3043"
+      ],
+      "Date": [
+        "Fri, 24 May 2024 12:50:29 GMT"
+      ],
+      "X-Amzn-Trace-Id": [
+        "root=1-66508d01-7b3d98bf2ae3f85311d3f50d;parent=5bc97ff962a2d736;sampled=1;lineage=a89ab2a5:0"
+      ],
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "HttpHeaders": {
+      "Connection": "keep-alive",
+      "Content-Length": "3043",
+      "Content-Type": "application/json",
+      "Date": "Fri, 24 May 2024 12:50:29 GMT",
+      "X-Amz-Executed-Version": "$LATEST",
+      "x-amzn-Remapped-Content-Length": "0",
+      "x-amzn-RequestId": "1ee53d23-0790-4a81-a30d-6beb8f6caf0c",
+      "X-Amzn-Trace-Id": "root=1-66508d01-7b3d98bf2ae3f85311d3f50d;parent=5bc97ff962a2d736;sampled=1;lineage=a89ab2a5:0"
+    },
+    "HttpStatusCode": 200
+  },
+  "SdkResponseMetadata": {
+    "RequestId": "1ee53d23-0790-4a81-a30d-6beb8f6caf0c"
+  },
+  "StatusCode": 200
+}
